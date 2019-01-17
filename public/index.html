@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img src="/assets/logo.svg" alt="logo" />
+      <div class="button">+</div>
+    </header>
+    <nav id="nav">
+      <div
+        id="snacks"
+        class="button"
+        data-url="https://www.reddit.com/r/forbiddensnacks/.json"
+      >
+        FORBIDDEN SNACKS
+      </div>
+      <div class="bullet">&bull;</div>
+      <div
+        id="superP"
+        class="button"
+        data-url="https://www.reddit.com/r/shittysuperpowers/.json"
+      >
+        SHITTY SUPERPOWERS
+      </div>
+      <div class="bullet">&bull;</div>
+      <div
+        id="slice"
+        class="button"
+        data-url="https://www.reddit.com/r/ImaginarySliceOfLife/.json"
+      >
+        IMAGINARY SLICE OF LIFE
+      </div>
+      <div class="bullet">&bull;</div>
+      <div id="random" class="button" data-random="true">RANDOM</div>
+    </nav>
+    <div id="main"></div>
+    <footer id="footer">
+      <div id="facebook"></div>
+      <div id="instagram"></div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/moment.min.js"></script>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
